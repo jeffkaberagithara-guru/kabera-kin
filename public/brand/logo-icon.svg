@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Kabera Kin">
+  <title>Kabera Kin icon</title>
+  <path d="M16 56 L16 28 A12 12 0 0 1 40 28 L40 56 Z" fill="#173F35"/>
+  <path d="M32 50 L32 50 L28 47 L30 44 L28 43 L33 41 L36 45 L33 49 L28 49 Z" fill="#222823"/>
+  <ellipse cx="32" cy="52.5" rx="5" ry="2"/>
+  <path d="M44 50 L44 50 L40 47 L42 44 L40 43 L45 41 L48 45 L45 49 L40 49 Z" fill="#222823"/>
+  <ellipse cx="44" cy="52.5" rx="4.5" ry="2"/>
+  <path d="M41 43 L42 41 L44 43" stroke="#222823" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M47 43 L46 41 L44 43" stroke="#222823" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

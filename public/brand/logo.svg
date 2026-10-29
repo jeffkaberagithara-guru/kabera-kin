@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" role="img" aria-label="Kabera Kin — Animal Welfare Sanctuary">
+  <title>Kabera Kin — Animal Welfare Sanctuary</title>
+  <g transform="translate(4 4) scale(0.9)">
+    <path d="M10 55V30a22 22 0 0 1 44 0v25" fill="none" stroke="#14352C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M17.5 55V30a14.5 14.5 0 0 1 29 0v25" fill="none" stroke="#C4623C" stroke-width="1.1"/>
+    <path d="M32 23.5V46.5M32 35L41 26M32 35L41 44" fill="none" stroke="#14352C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M8 55h48" stroke="#14352C" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="36" font-family="Fraunces, Georgia, serif" font-size="24" letter-spacing="-0.5" fill="#14352C">Kabera Kin</text>
+  <text x="71" y="53" font-family="Manrope, Helvetica, sans-serif" font-weight="600" font-size="7.5" letter-spacing="2.4" fill="#8E3F25">ANIMAL WELFARE SANCTUARY</text>
+</svg>
