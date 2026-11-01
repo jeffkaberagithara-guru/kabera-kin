@@ -214,7 +214,7 @@ export default function CarePage() {
         </div>
       </section>
 
-      <section className="shell py-16 lg:py-24" id="guides">
+      <section className="shell py-12 sm:py-14 lg:py-18 xl:py-24" id="guides">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
           <SectionHeading
             index="01"

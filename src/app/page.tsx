@@ -90,7 +90,7 @@ const stories = [
 export default function Home() {
   return (
     <main>
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden min-h-[90svh] lg:min-h-[92svh]">
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImages.home}
@@ -102,7 +102,7 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-linen/95 via-linen/80 to-linen/40" />
         </div>
-        <div className="shell grid items-end gap-12 pb-16 pt-10 lg:grid-cols-12 lg:gap-8 lg:pb-24 lg:pt-16">
+        <div className="shell grid items-end gap-12 pb-12 pt-8 sm:pb-16 sm:pt-10 lg:grid-cols-12 lg:gap-8 lg:pb-16 xl:pb-20" style={{minHeight: 'calc(90svh - 72px)'}}>
           <div className="relative z-10 lg:col-span-7 lg:pb-10">
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-clay" />
@@ -208,7 +208,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="shell py-20 lg:py-28">
+      <section className="shell py-14 sm:py-16 lg:py-20 xl:py-28">
         <div className="grid items-end gap-8 lg:grid-cols-12">
           <SectionHeading
             index="01"
@@ -252,7 +252,7 @@ export default function Home() {
       </section>
 
       <section className="bg-forest-deep text-paper">
-        <div className="shell grid gap-14 py-20 lg:grid-cols-12 lg:gap-8 lg:py-28">
+        <div className="shell grid gap-14 py-16 sm:py-20 lg:grid-cols-12 lg:gap-8 lg:py-24 xl:py-28">
           <div className="relative lg:col-span-5">
             <div className="relative aspect-[4/5] overflow-hidden arch">
               <Image
@@ -323,7 +323,7 @@ export default function Home() {
       </section>
 
       <section className="border-b border-ink/10 bg-sand/40">
-        <div className="shell py-16 lg:py-24">
+        <div className="shell py-14 sm:py-16 lg:py-20 xl:py-24">
           <div className="grid gap-8 lg:grid-cols-12 lg:items-end">
             <SectionHeading
               index="03"
@@ -346,7 +346,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="shell py-20 lg:py-28">
+      <section className="shell py-14 sm:py-16 lg:py-20 xl:py-28">
         <div className="grid items-end gap-8 lg:grid-cols-12">
           <SectionHeading
             index="04"
@@ -455,7 +455,7 @@ export default function Home() {
       </section>
 
       <section className="bg-clay text-paper">
-        <div className="shell grid gap-10 py-16 lg:grid-cols-12 lg:py-20">
+        <div className="shell grid gap-10 py-14 sm:py-16 lg:grid-cols-12 lg:py-18 xl:py-20">
           <div className="lg:col-span-7">
             <p className="eyebrow text-paper/60">Beyond adoption</p>
             <h2 className="h2-editorial mt-5 text-paper">
@@ -500,7 +500,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-forest-deep/40" />
           </div>
           <div className="flex items-center">
-            <div className="shell py-16 lg:py-24 lg:pl-16">
+            <div className="shell py-14 sm:py-16 lg:py-20 xl:py-24 lg:pl-16">
               <p className="eyebrow text-clay">A standing invitation</p>
               <h2 className="display mt-6 text-[clamp(2.6rem,5vw,4.6rem)] text-paper">
                 Someone is

@@ -29,7 +29,7 @@ export default function StoriesPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-linen via-linen/85 to-linen/35" />
         </div>
-        <div className="shell py-14 lg:py-20">
+        <div className="shell py-10 sm:py-12 lg:py-16 xl:py-20">
           <div className="flex items-center gap-3">
             <span className="h-px w-10 bg-clay" />
             <p className="eyebrow text-clay-deep">Field notes · The journal</p>
@@ -48,7 +48,7 @@ export default function StoriesPage() {
         </div>
       </section>
 
-      <section className="shell py-14 lg:py-20">
+      <section className="shell py-10 sm:py-12 lg:py-16 xl:py-20">
         <Link href={`/stories/${featured.slug}`} className="group grid gap-8 lg:grid-cols-12 lg:items-center">
           <div className="lg:col-span-7">
             <div className="relative aspect-[16/10] overflow-hidden bg-stone">

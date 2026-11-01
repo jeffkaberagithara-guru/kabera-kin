@@ -9,7 +9,8 @@
 
 @layer base {
   html {
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
   }
 
   body {

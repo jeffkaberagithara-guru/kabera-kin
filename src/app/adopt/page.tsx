@@ -17,19 +17,19 @@ const featured = getAnimal("nyota")!;
 export default function AdoptPage() {
   return (
     <main>
-      <section className="relative overflow-hidden border-b border-ink/10">
+      <section className="relative overflow-hidden border-b border-ink/10 min-h-[85svh] lg:min-h-[90svh]">
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImages.adopt}
-            alt="Animals waiting for adoption"
+            alt="Two rescued dogs side by side in the sanctuary"
             fill
             priority
             className="object-cover opacity-100"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-linen via-linen/85 to-linen/35" />
+          <div className="absolute inset-0 bg-gradient-to-r from-linen/95 via-linen/85 to-linen/45" />
         </div>
-        <div className="shell grid gap-12 py-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:py-20">
+        <div className="shell grid gap-12 py-12 sm:py-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:py-16 xl:py-20" style={{minHeight: 'calc(85svh - 1px)'}}>
           <div className="relative z-10 lg:col-span-7">
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-clay" />

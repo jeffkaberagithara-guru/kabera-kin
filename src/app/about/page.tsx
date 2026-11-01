@@ -100,7 +100,7 @@ const team = [
 export default function AboutPage() {
   return (
     <main>
-      <section className="relative overflow-hidden border-b border-ink/10">
+      <section className="relative overflow-hidden border-b border-ink/10 min-h-[85svh] lg:min-h-[90svh]">
         <div className="absolute inset-0 z-0">
           <Image
             src={heroImages.about}
@@ -112,7 +112,7 @@ export default function AboutPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-linen/95 via-linen/85 to-linen/45" />
         </div>
-        <div className="shell grid gap-12 py-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:py-20">
+        <div className="shell grid gap-12 py-12 sm:py-14 lg:grid-cols-12 lg:items-end lg:gap-8 lg:py-16 xl:py-20" style={{minHeight: 'calc(85svh - 1px)'}}>
           <div className="relative z-10 lg:col-span-7">
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-clay" />
@@ -171,7 +171,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="shell py-16 lg:py-24">
+      <section className="shell py-12 sm:py-14 lg:py-18 xl:py-24">
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-10">
           <SectionHeading
             index="01"
@@ -261,7 +261,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="shell py-16 lg:py-24">
+      <section className="shell py-12 sm:py-14 lg:py-18 xl:py-24">
         <div className="grid gap-10 lg:grid-cols-12">
           <SectionHeading
             index="03"

@@ -93,7 +93,7 @@ export default async function StoryPage({
           </div>
         </div>
 
-        <div className="shell py-14 lg:py-20">
+        <div className="shell py-10 sm:py-12 lg:py-16 xl:py-20">
           <div className="mx-auto max-w-[42rem]">
             {story.body.map((block, index) => {
               if (block.type === "heading") {

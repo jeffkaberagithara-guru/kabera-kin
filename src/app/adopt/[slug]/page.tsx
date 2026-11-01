@@ -216,7 +216,7 @@ export default async function DossierPage({
         </div>
       </section>
 
-      <section className="shell py-16 lg:py-24">
+      <section className="shell py-12 sm:py-14 lg:py-18 xl:py-24">
         <div className="grid gap-10 lg:grid-cols-12">
           <SectionHeading
             index="02"
@@ -320,7 +320,7 @@ export default async function DossierPage({
         </div>
       </section>
 
-      <section className="shell py-16 lg:py-24">
+      <section className="shell py-12 sm:py-14 lg:py-18 xl:py-24">
         <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <SectionHeading
             eyebrow="Continue reading"
