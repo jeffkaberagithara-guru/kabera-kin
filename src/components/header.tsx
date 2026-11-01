@@ -109,7 +109,7 @@ export function Header() {
         <div className="shell flex h-[72px] items-center justify-between gap-6">
           <Brand />
 
-          <nav aria-label="Primary" className="hidden items-center gap-1 lg:flex">
+          <nav aria-label="Primary"                 className="hidden items-center gap-1 xl:flex">
             {links.map((link) => (
               <Link
                 key={link.href}
@@ -145,7 +145,7 @@ export function Header() {
               aria-expanded={open}
               aria-controls="mobile-navigation"
               aria-label={open ? "Close menu" : "Open menu"}
-              className="flex h-11 w-11 items-center justify-center border border-ink/15 text-forest transition hover:border-forest/40 lg:hidden"
+              className="flex h-11 w-11 items-center justify-center border border-ink/15 text-forest transition hover:border-forest/40 xl:hidden"
             >
               {open ? <XIcon className="h-5 w-5" /> : <MenuIcon className="h-5 w-5" />}
             </button>
@@ -160,7 +160,7 @@ export function Header() {
         aria-modal="true"
         aria-label="Mobile navigation"
         hidden={!open}
-        className="fixed inset-x-0 top-0 z-[60] max-h-dvh overflow-y-auto overscroll-contain border-b border-ink/10 bg-linen/95 backdrop-blur-md lg:hidden"
+        className="fixed inset-x-0 top-0 z-[60] max-h-dvh overflow-y-auto overscroll-contain border-b border-ink/10 bg-linen/95 backdrop-blur-md xl:hidden"
       >
         <div className="shell flex flex-col py-6 px-5">
           <div className="flex items-center justify-between mb-8">

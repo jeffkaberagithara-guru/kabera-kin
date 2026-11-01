@@ -71,7 +71,7 @@ export function StatRow({
 }) {
   return (
     <dl
-      className={`grid grid-cols-3 divide-x ${
+      className={`grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x ${
         tone === "light" ? "divide-paper/15" : "divide-ink/15"
       } ${className}`}
     >

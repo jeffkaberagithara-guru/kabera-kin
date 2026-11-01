@@ -124,16 +124,16 @@ export default function Home() {
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link href="/adopt" className="btn-primary">
+              <Link href="/adopt" className="btn-primary w-full sm:w-auto justify-center">
                 Meet the companions
                 <ArrowRightIcon className="h-4 w-4" />
               </Link>
-              <Link href="/how-it-works" className="btn-quiet">
+              <Link href="/how-it-works" className="btn-quiet w-full sm:w-auto justify-center">
                 How adoption works
               </Link>
             </div>
 
-            <div className="mt-14 max-w-xl border-t border-ink/15 pt-6">
+            <div className="mt-10 sm:mt-14 max-w-xl border-t border-ink/15 pt-6">
               <StatRow stats={registryStats} />
             </div>
           </div>
@@ -144,7 +144,7 @@ export default function Home() {
               className="absolute -bottom-6 -left-6 hidden h-2/3 w-2/3 bg-clay/10 lg:block"
             />
             <div className="relative">
-              <div className="relative aspect-[4/5] overflow-hidden bg-stone arch">
+              <div               className="relative aspect-[3/4] sm:aspect-[4/5] overflow-hidden bg-stone arch">
                 <Image
                   src={imagery.sanctuary}
                   alt="A calm sanctuary setting with a rescued dog in afternoon light"
@@ -159,7 +159,7 @@ export default function Home() {
                 </span>
               </div>
 
-              <div className="relative -mt-14 ml-4 mr-8 border border-ink/10 bg-paper p-5 shadow-editorial sm:ml-8 lg:-ml-12 lg:mr-0 lg:p-6">
+              <div                 className="relative -mt-10 sm:-mt-14 ml-2 sm:ml-4 mr-4 sm:mr-8 border border-ink/10 bg-paper p-4 sm:p-5 shadow-editorial sm:ml-8 lg:-ml-12 lg:mr-0 lg:p-6">
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <p className="eyebrow text-ink/40">KK-904 · Karen Ridge</p>

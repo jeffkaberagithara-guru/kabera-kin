@@ -11,11 +11,14 @@
   html {
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     background-color: #f4eee1;
     color: #1c221d;
+    overflow-x: hidden;
+    width: 100%;
   }
 
   h1,
