@@ -128,7 +128,7 @@ export function Footer() {
             </h2>
           </div>
 
-          <div className="lg:col-span-6 lg:justify-self-end">
+            <div className="lg:col-span-6 lg:justify-self-end w-full">
             <NewsletterForm id="footer-email" rounded />
           </div>
         </div>

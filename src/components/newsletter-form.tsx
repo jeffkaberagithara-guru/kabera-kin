@@ -68,7 +68,7 @@ export function NewsletterForm({
         onChange={(event) => setEmail(event.target.value)}
         autoComplete="email"
         placeholder="Your email address"
-        className={`min-h-12 w-full border border-paper/20 bg-transparent px-4 py-3 text-sm text-paper placeholder:text-paper/35 focus:border-clay focus:outline-none sm:max-w-xs ${fieldShape}`}
+        className={`min-h-12 w-full border border-paper/20 bg-transparent px-4 py-3 text-sm text-paper placeholder:text-paper/35 focus:border-clay focus:outline-none sm:flex-1 lg:max-w-xs ${fieldShape}`}
       />
       <button
         type="submit"

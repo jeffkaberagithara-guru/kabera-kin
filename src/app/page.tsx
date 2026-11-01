@@ -111,7 +111,7 @@ export default function Home() {
               </p>
             </div>
 
-            <h1 className="display mt-8 text-[clamp(3.4rem,8.6vw,7.6rem)] text-forest">
+            <h1 className="display mt-6 sm:mt-8 text-[clamp(2.8rem,7.5vw,7.6rem)] text-forest">
               A <em className="text-clay-deep">kinder</em>
               <br />
               way home.
